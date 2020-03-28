@@ -1,0 +1,73 @@
+body {
+    margin:0;
+    font-family:arial;
+}
+#display, #displayd{
+   height:45vh;
+   width:100%;
+   font-size:20px;
+   overflow:auto;
+   padding-bottom:10px;
+}
+
+
+#keyboard, #keyboardd{
+    position:fixed;
+    width:100vw;
+    height:50vh;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    background:#d1d1d1;
+    padding-bottom:20px;
+    bottom:0;
+}
+.row{
+   width:100%;
+   display:flex;
+   margin:5px 0;
+   justify-content:space-around;
+}
+.key{
+   background: #f5f5f5;
+   color:#050505;
+   font-weight:600;
+   padding: 10px 6px;
+   margin:2px 0;
+   border-radius:5px;
+   text-align:center;
+   width:5%;
+   box-shadow:0px 2px 4px #aaa;
+   cursor:pointer;
+}
+.num{
+   padding:6px 6px; 
+}
+.dark{
+    background:#5c5c5c;
+    color:white;
+}
+.space{
+    width:34%;
+}
+
+.lastr{
+   width:16%; 
+}
+.prelast{
+   width:10%; 
+}
+
+#displayd{
+   background:#111;
+}
+#keyboardd{
+   background:#777; 
+}
+#displayd, .keyd{
+   color:#fff;
+}
+.keyd{
+   background:#2a2a2a;
+   box-shadow:0px 2px 4px #555;
+}
